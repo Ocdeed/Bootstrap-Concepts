@@ -12,45 +12,103 @@
       <h1 class="mb-5">List Groups & Badges</h1>
 
       <!-- Simple List Group -->
-      <ul class="">
-        <li class="">Tony Stark</li>
-        <li class="">Steve Rogers</li>
-        <li class="">Bruce Banner</li>
-        <li class="">Thor Odinson</li>
-        <li class="">Rick Jones</li>
+      <ul class="list-group">
+        <li class="list-group-item">Tony Stark</li>
+        <li class="list-group-item active">Steve Rogers</li>
+        <li class="list-group-item">Bruce Banner</li>
+        <li class="list-group-item disabled">Thor Odinson</li>
+        <li class="list-group-item">Rick Jones</li>
       </ul>
 
       <br /><br />
 
       <!-- Links -->
-
+      <div class="list-group">
+        <a class="list-group-item" href="#">Tony Stark</a>
+        <a class="list-group-item active" href="#">Steve Rogers</a>
+        <a class="list-group-item" href="#">Bruce Banner</a>
+        <a class="list-group-item disabled" href="#">Thor Odinson</a>
+        <a class="list-group-item" href="#">Rick Jones</a>
+      </div>
       <br /><br />
 
       <!-- Flush Style -->
-
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Tony Stark</li>
+        <li class="list-group-item active">Steve Rogers</li>
+        <li class="list-group-item">Bruce Banner</li>
+        <li class="list-group-item disabled">Thor Odinson</li>
+        <li class="list-group-item">Rick Jones</li>
+      </ul>
       <br /><br />
 
       <!-- Numbered List -->
-
-      <br /><br />
+      <ol class="list-group list-group-numbered">
+        <li class="list-group-item">Tony Stark</li>
+        <li class="list-group-item active">Steve Rogers</li>
+        <li class="list-group-item">Bruce Banner</li>
+        <li class="list-group-item disabled">Thor Odinson</li>
+        <li class="list-group-item">Rick Jones</li>
+      </ol>
+      <br /><br list-group-numbered />
 
       <!-- Badges -->
-      <h1>Example heading</h1>
-      <h2>Example heading</h2>
-      <h3>Example heading</h3>
-      <h4>Example heading</h4>
-      <h5>Example heading</h5>
-      <h6>Example heading</h6>
+      <h1>Example heading <span class="badge bg-info">Ocdeed</span></h1>
+      <h2>Example heading <span class="badge bg-success">Ocdeed</span></h2>
+      <h3>Example heading <span class="badge bg-warning">Ocdeed</span></h3>
+      <h4>Example heading <span class="badge bg-secondary">Ocdeed</span></h4>
+      <h5>Example heading <span class="badge bg-danger">Ocdeed</span></h5>
+      <h6>Example heading <span class="badge bg-dark">Ocdeed</span></h6>
 
       <br /><br />
 
       <!-- In Button -->
-      <button type="button" class="btn btn-primary">Notifications</button>
+      <button type="button" class="btn btn-primary">
+        Notifications
+        <span class="badge text-bg-dark">Ocdeed</span>
+      </button>
 
       <br /><br />
 
       <!-- Badges in List Group -->
-
+      <ul class="list-group">
+        <li
+          class="list-group-item d-flex justify-content-between align-items-start"
+        >
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Electronics</div>
+            Content for this Item
+          </div>
+          <span class="badge bg-primary rounded-pill">23</span>
+        </li>
+        <li
+          class="list-group-item d-flex justify-content-between align-items-start"
+        >
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Arts</div>
+            Content for this Item
+          </div>
+          <span class="badge bg-info rounded-pill">17</span>
+        </li>
+        <li
+          class="list-group-item d-flex justify-content-between align-items-start"
+        >
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">English</div>
+            Content for this Item
+          </div>
+          <span class="badge bg-warning rounded-pill">09</span>
+        </li>
+        <li
+          class="list-group-item d-flex justify-content-between align-items-start"
+        >
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Science</div>
+            Content for this Item
+          </div>
+          <span class="badge bg-danger rounded-pill">11</span>
+        </li>
+      </ul>
       <!-- Don't go past here -->
     </div>
     <div style="margin-top: 350px"></div>
